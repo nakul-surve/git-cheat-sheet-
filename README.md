@@ -153,4 +153,18 @@ git rebase main
 git cherry-pick <commit-id>
 git tag v1.0
 
-🧠 Golden Rules (Remember T
+## Fixing Common Git Mistakes
+
+### Undo last commit (but keep changes)
+
+git reset --soft HEAD~1
+
+Discard local changes
+git checkout -- filename
+
+Check commit history
+git log --oneline
+
+Rename last commit message
+git commit --amend
+
